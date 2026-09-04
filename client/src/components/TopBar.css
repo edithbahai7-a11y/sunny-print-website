@@ -1,0 +1,43 @@
+.top-bar {
+  background: var(--black);
+  color: var(--white);
+  font-size: 13px;
+}
+
+.top-bar-container {
+  width: min(1200px, 92%);
+  min-height: 42px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.top-contact,
+.top-social {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.top-contact span,
+.top-social span {
+  white-space: nowrap;
+}
+
+.top-social span:not(:first-child) {
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.top-social span:not(:first-child):hover {
+  color: var(--orange);
+}
+
+@media (max-width: 768px) {
+  .top-bar {
+    display: none;
+  }
+}

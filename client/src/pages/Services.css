@@ -1,0 +1,813 @@
+
+/* =========================================
+   SUNNY PRINT
+   PRODUCTS & SERVICES
+   Orange | Black | White
+========================================= */
+
+.services-page {
+  width: 100%;
+  background: #ffffff;
+  color: #111111;
+}
+
+
+/* =========================================
+   HERO
+========================================= */
+
+.services-hero {
+  min-height: 520px;
+  background: #111111;
+  color: #ffffff;
+
+  display: flex;
+  align-items: center;
+
+  padding: 80px 7%;
+}
+
+.services-hero-content {
+  max-width: 850px;
+}
+
+.services-eyebrow {
+  color: #f58220;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.services-hero h1 {
+  color: #ffffff;
+  font-size: 64px;
+  line-height: 1.05;
+  margin-bottom: 25px;
+}
+
+.services-hero h1 span {
+  color: #f58220;
+}
+
+.services-hero-content > p:last-child {
+  max-width: 650px;
+  color: #cccccc;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+
+/* =========================================
+   FEATURED SERVICES
+========================================= */
+
+.featured-services {
+  padding: 100px 7%;
+}
+
+.services-heading {
+  max-width: 1250px;
+  margin: 0 auto 55px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 50px;
+}
+
+.services-heading p:first-child {
+  color: #f58220;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+}
+
+.services-heading h2 {
+  font-size: 45px;
+  line-height: 1.1;
+}
+
+.services-heading h2 span {
+  color: #f58220;
+}
+
+.heading-description {
+  max-width: 400px;
+  color: #666666;
+  line-height: 1.8;
+}
+
+
+/* =========================================
+   FEATURED CARDS
+========================================= */
+
+.featured-grid {
+  max-width: 1250px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 25px;
+}
+
+.featured-card {
+  background: #f7f7f7;
+}
+
+.featured-image {
+  width: 100%;
+  height: 280px;
+  overflow: hidden;
+}
+
+.featured-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  transition: transform 0.5s ease;
+}
+
+.featured-card:hover .featured-image img {
+  transform: scale(1.05);
+}
+
+.featured-content {
+  padding: 30px;
+}
+
+.featured-content > span {
+  color: #f58220;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.featured-content h3 {
+  font-size: 25px;
+  margin: 12px 0;
+}
+
+.featured-content p {
+  color: #666666;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.featured-content a {
+  color: #111111;
+  font-weight: 800;
+}
+
+.featured-content a:hover {
+  color: #f58220;
+}
+
+
+/* =========================================
+   PRODUCTS
+========================================= */
+
+.products-section {
+  background: #f7f7f7;
+  padding: 100px 7%;
+}
+
+.products-heading {
+  max-width: 1250px;
+  margin: auto auto 50px;
+}
+
+.products-heading p {
+  color: #f58220;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+}
+
+.products-heading h2 {
+  font-size: 45px;
+  line-height: 1.1;
+}
+
+.products-heading h2 span {
+  color: #f58220;
+}
+
+.products-grid {
+  max-width: 1250px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  border-top: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+}
+
+.product-item {
+  padding: 35px;
+
+  min-height: 190px;
+
+  border-right: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+
+  transition: background 0.3s ease;
+}
+
+.product-image {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 22px;
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.product-item:hover .product-image img {
+  transform: scale(1.06);
+}
+
+.product-item:hover {
+  background: #ffffff;
+}
+
+.product-item > span {
+  color: #f58220;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.product-item h3 {
+  margin: 15px 0 8px;
+  font-size: 20px;
+}
+
+.product-item p {
+  color: #666666;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+
+/* =========================================
+   WHY SUNNY PRINT
+========================================= */
+
+.services-why {
+  background: #111111;
+  color: #ffffff;
+
+  padding: 100px 7%;
+
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 80px;
+}
+
+.why-title p {
+  color: #f58220;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+}
+
+.why-title h2 {
+  font-size: 45px;
+  line-height: 1.1;
+}
+
+.why-title h2 span {
+  color: #f58220;
+}
+
+.why-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.why-list > div {
+  border-top: 1px solid #444444;
+  padding-top: 25px;
+}
+
+.why-list span {
+  color: #f58220;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.why-list h3 {
+  margin: 15px 0 10px;
+  font-size: 21px;
+}
+
+.why-list p {
+  color: #aaaaaa;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+
+/* =========================================
+   CTA
+========================================= */
+
+.services-cta {
+  background: #f58220;
+  color: #ffffff;
+
+  padding: 75px 7%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 40px;
+}
+
+.services-cta p {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+
+.services-cta h2 {
+  font-size: 48px;
+  line-height: 1.05;
+}
+
+.services-cta h2 span {
+  color: #111111;
+}
+
+.services-cta a {
+  background: #111111;
+  color: #ffffff;
+
+  padding: 16px 25px;
+
+  font-weight: 800;
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 800px) {
+
+  .services-hero {
+    min-height: 480px;
+    padding: 70px 25px;
+  }
+
+  .services-hero h1 {
+    font-size: 43px;
+  }
+
+  .featured-services,
+  .products-section,
+  .services-why {
+    padding: 75px 25px;
+  }
+
+  .services-heading {
+    display: block;
+  }
+
+  .services-heading h2,
+  .products-heading h2,
+  .why-title h2 {
+    font-size: 36px;
+  }
+
+  .heading-description {
+    margin-top: 25px;
+  }
+
+  .featured-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .featured-image {
+    height: 260px;
+  }
+
+  .products-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .services-why {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .why-list {
+    grid-template-columns: 1fr;
+  }
+
+  .services-cta {
+    padding: 65px 25px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .services-cta h2 {
+    font-size: 38px;
+  }
+
+}
+
+/* =========================================
+   SERVICES PAGE - FULL RESPONSIVE DESIGN
+========================================= */
+
+
+/* =========================================
+   TABLETS & SMALL LAPTOPS
+========================================= */
+
+@media (max-width: 1100px) {
+
+  .services-hero {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+
+  .featured-services,
+  .products-section,
+  .services-why {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+
+  .featured-grid {
+    gap: 20px;
+  }
+
+  .featured-content {
+    padding: 25px;
+  }
+
+  .product-item {
+    padding: 28px;
+  }
+
+  .services-why {
+    gap: 50px;
+  }
+
+}
+
+
+/* =========================================
+   TABLETS
+========================================= */
+
+@media (max-width: 900px) {
+
+  /* HERO */
+
+  .services-hero {
+    min-height: 500px;
+    padding: 75px 7%;
+  }
+
+  .services-hero h1 {
+    font-size: clamp(46px, 8vw, 60px);
+  }
+
+  .services-hero-content > p:last-child {
+    max-width: 620px;
+    font-size: 16px;
+  }
+
+
+  /* FEATURED SERVICES */
+
+  .services-heading {
+    display: block;
+  }
+
+  .heading-description {
+    margin-top: 25px;
+    max-width: 600px;
+  }
+
+  .featured-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .featured-image {
+    height: 250px;
+  }
+
+
+  /* PRODUCTS */
+
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .product-item {
+    min-height: 200px;
+  }
+
+
+  /* WHY SUNNY PRINT */
+
+  .services-why {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .why-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+
+  /* CTA */
+
+  .services-cta {
+    padding: 70px 7%;
+  }
+
+  .services-cta h2 {
+    font-size: 44px;
+  }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 600px) {
+
+  /* HERO */
+
+  .services-hero {
+    min-height: auto;
+
+    padding: 60px 6% 70px;
+  }
+
+  .services-eyebrow {
+    font-size: 11px;
+    letter-spacing: 2px;
+
+    margin-bottom: 18px;
+  }
+
+  .services-hero h1 {
+    font-size: clamp(38px, 11vw, 50px);
+
+    line-height: 1;
+
+    letter-spacing: -1.5px;
+
+    margin-bottom: 22px;
+  }
+
+  .services-hero-content > p:last-child {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+
+  /* FEATURED SERVICES */
+
+  .featured-services {
+    padding: 65px 6%;
+  }
+
+  .services-heading {
+    margin-bottom: 40px;
+  }
+
+  .services-heading p:first-child {
+    font-size: 11px;
+    letter-spacing: 2px;
+  }
+
+  .services-heading h2 {
+    font-size: 37px;
+
+    line-height: 1.05;
+
+    letter-spacing: -1px;
+  }
+
+  .heading-description {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .featured-grid {
+    grid-template-columns: 1fr;
+
+    gap: 20px;
+  }
+
+  .featured-image {
+    height: 220px;
+  }
+
+  .featured-content {
+    padding: 25px;
+  }
+
+  .featured-content > span {
+    font-size: 11px;
+  }
+
+  .featured-content h3 {
+    font-size: 23px;
+  }
+
+  .featured-content p {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+
+  /* PRODUCTS */
+
+  .products-section {
+    padding: 65px 6%;
+  }
+
+  .products-heading {
+    margin-bottom: 40px;
+  }
+
+  .products-heading p {
+    font-size: 11px;
+    letter-spacing: 2px;
+  }
+
+  .products-heading h2 {
+    font-size: 37px;
+
+    line-height: 1.05;
+
+    letter-spacing: -1px;
+  }
+
+  .products-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .product-item {
+    padding: 25px;
+
+    min-height: auto;
+  }
+
+  .product-image {
+    height: 190px;
+
+    margin-bottom: 20px;
+  }
+
+  .product-item > span {
+    font-size: 11px;
+  }
+
+  .product-item h3 {
+    font-size: 20px;
+  }
+
+  .product-item p {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+
+  /* WHY SUNNY PRINT */
+
+  .services-why {
+    padding: 65px 6%;
+
+    grid-template-columns: 1fr;
+
+    gap: 40px;
+  }
+
+  .why-title p {
+    font-size: 11px;
+    letter-spacing: 2px;
+  }
+
+  .why-title h2 {
+    font-size: 38px;
+
+    line-height: 1.05;
+
+    letter-spacing: -1px;
+  }
+
+  .why-list {
+    grid-template-columns: 1fr;
+
+    gap: 0;
+  }
+
+  .why-list > div {
+    padding: 25px 0;
+  }
+
+  .why-list h3 {
+    font-size: 20px;
+  }
+
+  .why-list p {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+
+  /* CTA */
+
+  .services-cta {
+    padding: 60px 6%;
+
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 30px;
+  }
+
+  .services-cta p {
+    font-size: 10px;
+    letter-spacing: 2px;
+  }
+
+  .services-cta h2 {
+    font-size: 40px;
+
+    line-height: 1;
+
+    letter-spacing: -1px;
+  }
+
+  .services-cta a {
+    width: 100%;
+
+    display: inline-flex;
+
+    justify-content: center;
+
+    padding: 15px 20px;
+  }
+
+}
+
+
+/* =========================================
+   VERY SMALL PHONES
+========================================= */
+
+@media (max-width: 400px) {
+
+  .services-hero h1 {
+    font-size: 35px;
+  }
+
+  .services-heading h2,
+  .products-heading h2,
+  .why-title h2 {
+    font-size: 33px;
+  }
+
+  .featured-content {
+    padding: 22px;
+  }
+
+  .product-item {
+    padding: 22px;
+  }
+
+  .services-cta h2 {
+    font-size: 35px;
+  }
+
+}

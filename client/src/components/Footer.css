@@ -1,0 +1,428 @@
+/* =========================================
+   SUNNY PRINT - PREMIUM FOOTER
+   Orange | Black | White
+========================================= */
+
+.footer {
+  width: 100%;
+  background: #111111;
+  color: #ffffff;
+}
+
+
+/* =========================================
+   MAIN FOOTER
+========================================= */
+
+.footer-main {
+  max-width: 1400px;
+  margin: auto;
+
+  padding: 85px 7% 70px;
+
+  display: grid;
+  grid-template-columns: 1.4fr 0.7fr 1fr 1.1fr;
+
+  gap: 55px;
+}
+
+
+/* =========================================
+   BRAND
+========================================= */
+
+.footer-brand {
+  max-width: 340px;
+}
+
+.footer-logo {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.footer-logo img {
+  width: 190px;
+  height: auto;
+  display: block;
+}
+
+.footer-logo span {
+  color: #f58220;
+}
+
+.footer-logo:hover {
+  transform: translateX(4px);
+}
+
+.footer-brand > p {
+  color: #aaaaaa;
+
+  font-size: 14px;
+
+  line-height: 1.8;
+
+  margin-bottom: 25px;
+}
+
+.footer-project-link {
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  color: #ffffff;
+
+  font-size: 14px;
+
+  font-weight: 800;
+
+  text-decoration: none;
+
+  transition:
+    color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.footer-project-link span {
+  color: #f58220;
+
+  font-size: 20px;
+}
+
+.footer-project-link:hover {
+  color: #f58220;
+
+  transform: translateX(5px);
+}
+
+
+/* =========================================
+   FOOTER HEADINGS
+========================================= */
+
+.footer-links h3,
+.footer-services h3,
+.footer-contact h3 {
+  color: #f58220;
+
+  font-size: 11px;
+
+  font-weight: 800;
+
+  letter-spacing: 2.5px;
+
+  margin: 0 0 25px;
+}
+
+
+/* =========================================
+   EXPLORE LINKS
+========================================= */
+
+.footer-links {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  gap: 14px;
+}
+
+.footer-links a {
+  color: #dddddd;
+
+  font-size: 14px;
+
+  text-decoration: none;
+
+  transition:
+    color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #f58220;
+
+  transform: translateX(5px);
+}
+
+
+/* =========================================
+   SERVICES
+========================================= */
+
+.footer-services {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  gap: 14px;
+}
+
+.footer-services p {
+  color: #dddddd;
+
+  font-size: 14px;
+
+  margin: 0;
+
+  transition:
+    color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.footer-services p:hover {
+  color: #f58220;
+
+  transform: translateX(5px);
+}
+
+
+/* =========================================
+   CONTACT
+========================================= */
+
+.footer-contact {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-start;
+}
+
+.footer-label {
+  color: #777777;
+
+  font-size: 9px;
+
+  font-weight: 800;
+
+  letter-spacing: 1.5px;
+
+  margin: 8px 0 5px;
+}
+
+.footer-contact a {
+  color: #dddddd;
+
+  font-size: 14px;
+
+  text-decoration: none;
+
+  margin-bottom: 10px;
+
+  transition: color 0.3s ease;
+}
+
+.footer-contact a:hover {
+  color: #f58220;
+}
+
+
+/* =========================================
+   LOCATION BAR
+========================================= */
+
+.footer-location {
+  border-top: 1px solid #333333;
+
+  border-bottom: 1px solid #333333;
+
+  max-width: 1400px;
+
+  margin: auto;
+
+  padding: 28px 7%;
+
+  display: grid;
+
+  grid-template-columns: 1.5fr 1fr 1fr;
+
+  gap: 40px;
+}
+
+.footer-location-item span {
+  display: block;
+
+  color: #f58220;
+
+  font-size: 9px;
+
+  font-weight: 800;
+
+  letter-spacing: 2px;
+
+  margin-bottom: 8px;
+}
+
+.footer-location-item p,
+.footer-location-item a {
+  color: #999999;
+
+  font-size: 13px;
+
+  line-height: 1.6;
+
+  margin: 0;
+
+  text-decoration: none;
+
+  transition: color 0.3s ease;
+}
+
+.footer-location-item a:hover {
+  color: #f58220;
+}
+
+
+/* =========================================
+   BOTTOM BAR
+========================================= */
+
+.footer-bottom {
+  max-width: 1400px;
+
+  margin: auto;
+
+  padding: 22px 7%;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  gap: 20px;
+}
+
+.footer-bottom p {
+  color: #666666;
+
+  font-size: 11px;
+
+  margin: 0;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 1000px) {
+
+  .footer-main {
+    grid-template-columns: 1fr 1fr;
+
+    gap: 50px;
+
+    padding: 70px 6%;
+  }
+
+  .footer-location {
+    grid-template-columns: 1fr 1fr;
+
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+
+  .footer-location-item:first-child {
+    grid-column: 1 / -1;
+  }
+
+  .footer-bottom {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 600px) {
+
+  .footer-main {
+    grid-template-columns: 1fr;
+
+    gap: 45px;
+
+    padding: 65px 6%;
+  }
+
+  .footer-brand {
+    max-width: 100%;
+  }
+
+  .footer-logo {
+    font-size: 24px;
+  }
+
+  .footer-brand > p {
+    font-size: 14px;
+  }
+
+  .footer-links,
+  .footer-services,
+  .footer-contact {
+    gap: 12px;
+  }
+
+  .footer-links h3,
+  .footer-services h3,
+  .footer-contact h3 {
+    margin-bottom: 15px;
+  }
+
+  .footer-location {
+    grid-template-columns: 1fr;
+
+    gap: 25px;
+
+    padding: 30px 6%;
+  }
+
+  .footer-location-item:first-child {
+    grid-column: auto;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    padding: 20px 6% 30px;
+
+    gap: 8px;
+  }
+
+}
+
+
+/* =========================================
+   SMALL PHONES
+========================================= */
+
+@media (max-width: 400px) {
+
+  .footer-main {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .footer-location {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .footer-bottom {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+}

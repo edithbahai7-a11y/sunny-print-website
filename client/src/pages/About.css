@@ -1,0 +1,781 @@
+/* =========================================
+   SUNNY PRINT - ABOUT PAGE
+========================================= */
+
+.about-page {
+  width: 100%;
+  background: #ffffff;
+  color: #111111;
+}
+
+
+/* =========================================
+   HERO
+========================================= */
+
+.about-hero {
+  width: 100%;
+  min-height: 560px;
+  background: #111111;
+  color: #ffffff;
+
+  display: flex;
+  align-items: center;
+
+  padding: 90px 7%;
+}
+
+.about-hero-content {
+  max-width: 900px;
+}
+
+.about-eyebrow {
+  color: #f58220;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.about-hero h1 {
+  color: #ffffff;
+  font-size: 64px;
+  line-height: 1.05;
+  margin-bottom: 30px;
+}
+
+.about-hero h1 span {
+  color: #f58220;
+}
+
+.about-hero-text {
+  max-width: 680px;
+  color: #dddddd;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+
+/* =========================================
+   OUR STORY
+========================================= */
+
+.about-story {
+  max-width: 1250px;
+  margin: auto;
+
+  padding: 100px 30px;
+
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 80px;
+}
+
+.about-section-label {
+  color: #f58220;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.about-section-label span {
+  display: block;
+  color: #111111;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.about-story-content {
+  max-width: 750px;
+}
+
+.about-story-content h2 {
+  color: #111111;
+  font-size: 48px;
+  line-height: 1.1;
+  margin-bottom: 30px;
+}
+
+.about-story-content h2 span {
+  color: #f58220;
+}
+
+.about-story-content p {
+  color: #555555;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 18px;
+}
+
+
+/* =========================================
+   VISION & MISSION
+========================================= */
+
+.about-values {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.value-card {
+  padding: 80px 8%;
+  background: #111111;
+  color: #ffffff;
+}
+
+.value-card-orange {
+  background: #f58220;
+}
+
+.value-card > span {
+  color: #f58220;
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.value-card-orange > span {
+  color: #111111;
+}
+
+.value-card h2 {
+  color: #ffffff;
+  font-size: 40px;
+  margin: 25px 0 15px;
+}
+
+.value-card p {
+  max-width: 550px;
+  color: #cccccc;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.value-card-orange p {
+  color: #ffffff;
+}
+
+
+/* =========================================
+   WHAT SETS US APART
+========================================= */
+
+.about-strengths {
+  background: #f7f7f7;
+
+  padding: 100px 7%;
+
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 90px;
+}
+
+.about-strengths-heading p {
+  color: #f58220;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+}
+
+.about-strengths-heading h2 {
+  color: #111111;
+  font-size: 48px;
+  line-height: 1.05;
+}
+
+.about-strengths-heading h2 span {
+  color: #f58220;
+}
+
+
+/* =========================================
+   STRENGTH LIST
+========================================= */
+
+.strength-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.strength-item {
+  padding: 30px;
+
+  border-top: 1px solid #dddddd;
+
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  gap: 15px;
+}
+
+.strength-item > span {
+  color: #f58220;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.strength-item h3 {
+  color: #111111;
+  font-size: 21px;
+  margin-bottom: 8px;
+}
+
+.strength-item p {
+  color: #666666;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+
+/* =========================================
+   COMPANY INFORMATION
+========================================= */
+
+.about-company {
+  max-width: 1250px;
+  margin: auto;
+
+  padding: 100px 30px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: end;
+}
+
+.about-company-label {
+  color: #f58220;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+}
+
+.about-company h2 {
+  color: #111111;
+  font-size: 48px;
+  line-height: 1.05;
+}
+
+.about-company h2 span {
+  color: #f58220;
+}
+
+.about-company-text p {
+  color: #666666;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 25px;
+}
+
+.about-contact-link {
+  color: #111111;
+  font-weight: 800;
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.about-contact-link span {
+  color: #f58220;
+  font-size: 20px;
+}
+
+
+/* =========================================
+   CTA
+========================================= */
+
+.about-cta {
+  background: #f58220;
+  color: #ffffff;
+
+  padding: 80px 7%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.about-cta p {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  margin-bottom: 12px;
+}
+
+.about-cta h2 {
+  color: #ffffff;
+  font-size: 50px;
+  line-height: 1.05;
+}
+
+.about-cta h2 span {
+  color: #111111;
+}
+
+.about-cta a {
+  background: #111111;
+  color: #ffffff;
+
+  padding: 16px 25px;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+
+  font-weight: 800;
+}
+
+.about-cta a span {
+  color: #f58220;
+  font-size: 20px;
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 750px) {
+
+  .about-hero {
+    min-height: auto;
+    padding: 75px 25px;
+  }
+
+  .about-hero h1 {
+    font-size: 43px;
+  }
+
+  .about-hero-text {
+    font-size: 16px;
+  }
+
+  .about-story {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 70px 25px;
+  }
+
+  .about-story-content h2 {
+    font-size: 37px;
+  }
+
+  .about-values {
+    grid-template-columns: 1fr;
+  }
+
+  .value-card {
+    padding: 60px 25px;
+  }
+
+  .about-strengths {
+    grid-template-columns: 1fr;
+    gap: 50px;
+    padding: 75px 25px;
+  }
+
+  .about-strengths-heading h2 {
+    font-size: 38px;
+  }
+
+  .strength-list {
+    grid-template-columns: 1fr;
+  }
+
+  .about-company {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 75px 25px;
+  }
+
+  .about-company h2 {
+    font-size: 38px;
+  }
+
+  .about-cta {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 65px 25px;
+  }
+
+  .about-cta h2 {
+    font-size: 39px;
+  }
+
+}
+
+/* =========================================
+   ABOUT PAGE - FULL RESPONSIVE DESIGN
+========================================= */
+
+
+/* =========================================
+   TABLETS & SMALL LAPTOPS
+========================================= */
+
+@media (max-width: 1100px) {
+
+  .about-hero {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+
+  .about-story {
+    padding-left: 6%;
+    padding-right: 6%;
+    gap: 50px;
+  }
+
+  .about-strengths {
+    padding-left: 6%;
+    padding-right: 6%;
+    gap: 55px;
+  }
+
+  .about-company {
+    padding-left: 6%;
+    padding-right: 6%;
+    gap: 50px;
+  }
+
+}
+
+
+/* =========================================
+   TABLETS
+========================================= */
+
+@media (max-width: 900px) {
+
+  /* HERO */
+
+  .about-hero {
+    min-height: 500px;
+    padding: 75px 7%;
+  }
+
+  .about-hero h1 {
+    font-size: clamp(46px, 8vw, 60px);
+  }
+
+  .about-hero-text {
+    max-width: 620px;
+    font-size: 17px;
+  }
+
+
+  /* STORY */
+
+  .about-story {
+    grid-template-columns: 140px 1fr;
+    gap: 40px;
+
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .about-story-content h2 {
+    font-size: 42px;
+  }
+
+
+  /* VALUES */
+
+  .value-card {
+    padding: 65px 6%;
+  }
+
+  .value-card h2 {
+    font-size: 36px;
+  }
+
+
+  /* STRENGTHS */
+
+  .about-strengths {
+    grid-template-columns: 1fr 1.4fr;
+    gap: 45px;
+
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .about-strengths-heading h2 {
+    font-size: 42px;
+  }
+
+  .strength-item {
+    padding: 25px 20px;
+  }
+
+
+  /* COMPANY */
+
+  .about-company {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .about-company h2 {
+    font-size: 42px;
+  }
+
+
+  /* CTA */
+
+  .about-cta {
+    padding: 70px 7%;
+  }
+
+  .about-cta h2 {
+    font-size: 44px;
+  }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 600px) {
+
+  /* HERO */
+
+  .about-hero {
+    min-height: auto;
+
+    padding: 60px 6% 70px;
+  }
+
+  .about-eyebrow {
+    font-size: 11px;
+    letter-spacing: 2px;
+
+    margin-bottom: 18px;
+  }
+
+  .about-hero h1 {
+    font-size: clamp(38px, 11vw, 50px);
+
+    line-height: 1;
+
+    letter-spacing: -1.5px;
+
+    margin-bottom: 22px;
+  }
+
+  .about-hero-text {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+
+  /* STORY */
+
+  .about-story {
+    grid-template-columns: 1fr;
+
+    gap: 25px;
+
+    padding: 65px 6%;
+  }
+
+  .about-section-label {
+    font-size: 11px;
+  }
+
+  .about-section-label span {
+    font-size: 13px;
+  }
+
+  .about-story-content h2 {
+    font-size: 36px;
+
+    line-height: 1.05;
+
+    letter-spacing: -1px;
+
+    margin-bottom: 22px;
+  }
+
+  .about-story-content p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+
+  /* VISION & MISSION */
+
+  .about-values {
+    grid-template-columns: 1fr;
+  }
+
+  .value-card {
+    padding: 55px 6%;
+  }
+
+  .value-card > span {
+    font-size: 11px;
+  }
+
+  .value-card h2 {
+    font-size: 34px;
+
+    margin: 20px 0 15px;
+  }
+
+  .value-card p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+
+  /* STRENGTHS */
+
+  .about-strengths {
+    grid-template-columns: 1fr;
+
+    gap: 40px;
+
+    padding: 65px 6%;
+  }
+
+  .about-strengths-heading p {
+    font-size: 11px;
+    letter-spacing: 2px;
+  }
+
+  .about-strengths-heading h2 {
+    font-size: 37px;
+
+    line-height: 1.05;
+
+    letter-spacing: -1px;
+  }
+
+  .strength-list {
+    grid-template-columns: 1fr;
+  }
+
+  .strength-item {
+    grid-template-columns: 35px 1fr;
+
+    gap: 12px;
+
+    padding: 25px 5px;
+  }
+
+  .strength-item h3 {
+    font-size: 20px;
+  }
+
+  .strength-item p {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+
+  /* COMPANY INFORMATION */
+
+  .about-company {
+    grid-template-columns: 1fr;
+
+    gap: 35px;
+
+    padding: 65px 6%;
+  }
+
+  .about-company-label {
+    font-size: 11px;
+    letter-spacing: 2px;
+  }
+
+  .about-company h2 {
+    font-size: 37px;
+
+    line-height: 1.05;
+
+    letter-spacing: -1px;
+  }
+
+  .about-company-text p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+
+  /* CTA */
+
+  .about-cta {
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    padding: 60px 6%;
+
+    gap: 30px;
+  }
+
+  .about-cta p {
+    font-size: 10px;
+    letter-spacing: 2px;
+  }
+
+  .about-cta h2 {
+    font-size: 40px;
+
+    line-height: 1;
+
+    letter-spacing: -1px;
+  }
+
+  .about-cta a {
+    width: 100%;
+
+    justify-content: center;
+
+    padding: 15px 20px;
+  }
+
+}
+
+
+/* =========================================
+   VERY SMALL PHONES
+========================================= */
+
+@media (max-width: 400px) {
+
+  .about-hero {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .about-hero h1 {
+    font-size: 35px;
+  }
+
+  .about-story-content h2 {
+    font-size: 33px;
+  }
+
+  .value-card h2 {
+    font-size: 31px;
+  }
+
+  .about-strengths-heading h2,
+  .about-company h2 {
+    font-size: 33px;
+  }
+
+  .about-cta h2 {
+    font-size: 35px;
+  }
+
+}

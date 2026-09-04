@@ -1,0 +1,497 @@
+/* =========================================
+   SUNNY PRINT - PREMIUM NAVBAR
+========================================= */
+
+.navbar {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.96);
+  border-bottom: 1px solid #eeeeee;
+
+  position: sticky;
+  top: 0;
+
+  z-index: 1000;
+
+  backdrop-filter: blur(12px);
+
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+}
+
+
+/* =========================================
+   NAVBAR CONTAINER
+========================================= */
+
+.navbar-container {
+  max-width: 1400px;
+
+  margin: auto;
+
+  padding: 12px 40px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 35px;
+
+}
+
+
+/* =========================================
+   LOGO
+========================================= */
+
+/* =========================================
+   LOGO IMAGE
+========================================= */
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+
+  text-decoration: none;
+
+  flex-shrink: 0;
+}
+
+.navbar-logo img {
+  width: 125px;
+  height: auto;
+
+  display: block;
+
+  object-fit: contain;
+
+  transition: transform 0.3s ease;
+}
+
+.navbar-logo:hover img {
+  transform: scale(1.03);
+}
+
+
+.navbar-logo:hover::before {
+  transform: rotate(135deg);
+}
+
+
+/* =========================================
+   NAVIGATION LINKS
+========================================= */
+
+.navbar-links {
+  flex: 1;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 8px;
+}
+
+.navbar-links a {
+  position: relative;
+
+  padding: 10px 15px;
+
+  color: #333333;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  text-decoration: none;
+
+  border-radius: 4px;
+
+  transition:
+    color 0.3s ease,
+    background 0.3s ease;
+}
+
+.navbar-links a::after {
+  content: "";
+
+  position: absolute;
+
+  left: 15px;
+  right: 15px;
+
+  bottom: 4px;
+
+  height: 2px;
+
+  background: #f58220;
+
+  transform: scaleX(0);
+
+  transform-origin: center;
+
+  transition: transform 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #111111;
+
+  background: #fff7f0;
+}
+
+.navbar-links a:hover::after {
+  transform: scaleX(1);
+}
+
+
+/* =========================================
+   WHATSAPP BUTTON
+========================================= */
+
+.navbar-whatsapp {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 9px;
+
+  background: #111111;
+
+  color: #ffffff;
+
+  padding: 12px 20px;
+
+  border-radius: 5px;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  white-space: nowrap;
+
+  text-decoration: none;
+
+  position: relative;
+
+  overflow: hidden;
+
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.navbar-whatsapp::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: -100%;
+
+  width: 100%;
+  height: 100%;
+
+  background: #25d366;
+
+  transition: left 0.35s ease;
+
+  z-index: 0;
+}
+
+.navbar-whatsapp svg,
+.navbar-whatsapp span {
+  position: relative;
+
+  z-index: 1;
+}
+
+.navbar-whatsapp svg {
+  font-size: 20px;
+}
+
+.navbar-whatsapp:hover {
+  color: #ffffff;
+
+  transform: translateY(-3px);
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+.navbar-whatsapp:hover::before {
+  left: 0;
+}
+
+
+/* =========================================
+   FLOATING WHATSAPP
+========================================= */
+
+.floating-whatsapp {
+  position: fixed;
+
+  right: 25px;
+  bottom: 25px;
+
+  width: 62px;
+  height: 62px;
+
+  background: #25d366;
+
+  color: #ffffff;
+
+  border-radius: 50%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  font-size: 31px;
+
+  text-decoration: none;
+
+  box-shadow:
+    0 8px 25px rgba(0, 0, 0, 0.25);
+
+  z-index: 99999;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+
+  animation: whatsappFloat 3s ease-in-out infinite;
+}
+
+.floating-whatsapp:hover {
+  transform: scale(1.12);
+
+  box-shadow:
+    0 12px 35px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes whatsappFloat {
+
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+
+}
+
+
+/* =========================================
+   MOBILE MENU BUTTON
+========================================= */
+
+.menu-toggle {
+  display: none;
+
+  border: none;
+
+  background: #111111;
+
+  color: #ffffff;
+
+  width: 42px;
+  height: 42px;
+
+  border-radius: 4px;
+
+  font-size: 23px;
+
+  cursor: pointer;
+
+  transition:
+    background 0.3s ease,
+    transform 0.3s ease;
+}
+
+.menu-toggle:hover {
+  background: #f58220;
+
+  transform: rotate(3deg);
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 1000px) {
+
+  .navbar-container {
+    padding: 17px 25px;
+
+    gap: 20px;
+  }
+
+  .navbar-links {
+    gap: 2px;
+  }
+
+  .navbar-links a {
+    padding: 9px 10px;
+
+    font-size: 13px;
+  }
+
+  .navbar-links a::after {
+    left: 10px;
+    right: 10px;
+  }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 768px) {
+
+  .navbar-container {
+    padding: 15px 20px;
+  }
+
+  .navbar-logo {
+    font-size: 20px;
+  }
+
+  .navbar-links {
+    display: none;
+  }
+
+  .navbar-links.mobile-open {
+
+    display: flex;
+
+    position: absolute;
+
+    top: 100%;
+
+    left: 0;
+    right: 0;
+
+    flex-direction: column;
+
+    align-items: stretch;
+
+    gap: 0;
+
+    padding: 10px 25px 20px;
+
+    background: #ffffff;
+
+    border-top: 1px solid #eeeeee;
+
+    box-shadow:
+      0 15px 30px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-links.mobile-open a {
+
+    width: 100%;
+
+    padding: 16px 5px;
+
+    border-bottom: 1px solid #eeeeee;
+
+    border-radius: 0;
+
+    font-size: 15px;
+  }
+
+  .navbar-links.mobile-open a:hover {
+
+    background: #fff7f0;
+
+    padding-left: 12px;
+  }
+
+  .navbar-links.mobile-open a::after {
+    display: none;
+  }
+
+  .navbar-whatsapp {
+    margin-left: auto;
+
+    width: 44px;
+    height: 42px;
+
+    padding: 0;
+
+    border-radius: 5px;
+  }
+
+  .navbar-whatsapp span {
+    display: none;
+  }
+
+  .navbar-whatsapp svg {
+    font-size: 21px;
+  }
+
+  .menu-toggle {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+
+
+/* =========================================
+   SMALL PHONES
+========================================= */
+
+@media (max-width: 450px) {
+
+  .navbar-container {
+    padding: 13px 15px;
+
+    gap: 8px;
+  }
+
+  .navbar-logo {
+    font-size: 18px;
+
+    letter-spacing: 1px;
+  }
+
+  .navbar-logo::before {
+    width: 7px;
+    height: 7px;
+
+    margin-right: 7px;
+  }
+
+  .navbar-whatsapp {
+    width: 40px;
+    height: 40px;
+  }
+
+  .menu-toggle {
+    width: 40px;
+    height: 40px;
+
+    font-size: 21px;
+  }
+
+  .floating-whatsapp {
+    width: 55px;
+    height: 55px;
+
+    right: 15px;
+    bottom: 15px;
+
+    font-size: 27px;
+  }
+
+}
